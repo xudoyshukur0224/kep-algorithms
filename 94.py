@@ -7,4 +7,9 @@ def raqamlar_yigindisi_kopaytmasi(son):
      s += int(raqam)
      p *= int(raqam)
 
-    return p
+    return s, p
+
+for son in range(100, 1000):
+   s, p = raqamlar_yigindisi_kopaytmasi(son)
+   if p % s == 0:
+      print(son) 
