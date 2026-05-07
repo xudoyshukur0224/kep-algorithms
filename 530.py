@@ -7,4 +7,4 @@ def map(func, sequence):
 
     return lst
 
-print(map(lambda x :  x ** 2, [5, 0, -2]))
+print(map(lambda x :  x // 2, [1, 2, 3, 4]))  
